@@ -1,0 +1,9 @@
+.contenedor-responsive{
+    background-color: #FFF;
+    /* width: 90%; */
+    /*max-width: 1000px; aca determnamos lo maximo q puede medir*/
+    width:  min(90%, 1000px); /* esto es lo mismo q de arriba, aunque resumido en una linea*/
+    height: 400px;
+    /* margin: 0 auto; */
+    margin-inline: auto; /*es lo mismo q lo de arriba para centrar*/
+}
